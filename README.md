@@ -38,22 +38,37 @@ Design Responsivo
 🎯 O que você vai aprender
 
 ✅ Dominar Java e Programação Orientada a Objetos (POO)
+
 ✅ Criar soluções flexíveis, extensíveis e testáveis
+
 ✅ Entender e aplicar diagramas UML (classes e serviços)
+
 ✅ Construir aplicações desktop com JavaFX
+
 ✅ Desenvolver APIs REST com Spring Boot seguindo boas práticas
+
 ✅ Acessar bancos de dados relacionais (MySQL) com JDBC e JPA/Hibernate
+
 ✅ Integrar bancos NoSQL (MongoDB)
+
 ✅ Adquirir base teórica e prática sólida para se tornar um desenvolvedor Java completo
 
 🧱 Arquitetura do Projeto
+
 📦 java-completo-spring-boot-mysql
+
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/ → código-fonte
+
 │   │   ├── resources/ → configurações e templates
+
 │   └── test/ → testes automatizados
+
 ├── pom.xml → dependências Maven
+
 └── README.md → documentação do projeto
 
 🧑‍🏫 Instrutor
