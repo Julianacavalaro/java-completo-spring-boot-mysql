@@ -17,6 +17,13 @@ public class Main {
         area = (b +B) / 2.0 *h;
         System.out.println(area);
 
+        int a, A;
+        a=5;
+        A=2;
+        double resultado;
+        resultado = (double) a/A;
+        System.out.println(resultado);
+
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
