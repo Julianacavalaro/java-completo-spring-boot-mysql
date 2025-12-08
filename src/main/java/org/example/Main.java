@@ -32,7 +32,7 @@ public class Main {
         String s1, s2, s3;
 
         x = sc.nextInt();
-        sc.nextLine(); // limpar o buffer
+        sc.nextLine(); // limpar o buffer de leitura
         s1 = sc.nextLine();
         s2 = sc.nextLine();
         s3 = sc.nextLine();
@@ -42,6 +42,20 @@ public class Main {
         System.out.println(s1);
         System.out.println(s2);
         System.out.println(s3);
+
+        double w = 2.0;
+        double y =4.0;
+        double t = -10;
+
+       double D = Math.sqrt(y);
+        System.out.println(D);
+
+        double E = Math.pow(w, y);
+        System.out.println(E);
+
+        double F = Math.abs(t); //abs = valor sempre positivo
+        System.out.println(F);
+
 
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
