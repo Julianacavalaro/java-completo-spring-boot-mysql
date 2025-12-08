@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -14,15 +16,32 @@ public class Main {
         B = 8.0;
         h = 5.0;
 
-        area = (b +B) / 2.0 *h;
+        area = (b + B) / 2.0 * h;
         System.out.println(area);
 
         int a, A;
-        a=5;
-        A=2;
+        a = 5;
+        A = 2;
         double resultado;
-        resultado = (double) a/A;
+        resultado = (double) a / A;
         System.out.println(resultado);
+
+        Scanner sc = new Scanner(System.in);
+
+        int x;
+        String s1, s2, s3;
+
+        x = sc.nextInt();
+        sc.nextLine(); // limpar o buffer
+        s1 = sc.nextLine();
+        s2 = sc.nextLine();
+        s3 = sc.nextLine();
+
+        System.out.println("DADOS DIGITADOS:");
+        System.out.println(s1);
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s3);
 
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
