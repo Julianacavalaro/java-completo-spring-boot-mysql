@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -10,6 +11,66 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("Hello and welcome!");
 
+        //Faça um programa para ler dois valores inteiros, e depois mostrar na tela a soma desses números com uma
+        //mensagem explicativa, conforme exemplos.
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        int numA, numB;
+        numA = sc.nextInt();
+        numB = sc.nextInt();
+
+        int soma = numA + numB;
+        System.out.println("SOMA = "+ soma);
+
+
+        //
+       /*  Faça um programa para ler o valor do raio de um círculo, e depois mostrar o valor da área deste círculo com quatro
+        casas decimais conforme exemplos.
+
+        Fórmula da área: area = π . raio2
+
+        Considere o valor de π = 3.14159
+        */
+
+        double raio;
+        raio = sc.nextDouble();
+        double areaCirculo = 3.14159 * Math.pow(raio,2);
+        String resultadoCirculo = String.format("%.4f", areaCirculo);
+        System.out.println("A="+resultadoCirculo);
+
+        /*
+        Fazer um programa para ler quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto
+        de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
+        */
+
+        int intA, intB, intC, intD;
+        intA = sc.nextInt();
+        intB = sc.nextInt();
+        intC = sc.nextInt();
+        intD = sc.nextInt();
+
+        int diferenca = ((intA*intB) - (intC*intD));
+        System.out.println("DIFERENCA = "+diferenca);
+
+         //Fazer um programa para ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o
+        //código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Calcule e mostre o valor a ser pago.
+
+        int cod1, cod2, qte1, qte2;
+        double preco1, preco2, total;
+
+        cod1 = sc.nextInt();
+        qte1 = sc.nextInt();
+        preco1 = sc.nextDouble();
+
+        cod2 = sc.nextInt();
+        qte2 = sc.nextInt();
+        preco2 = sc.nextDouble();
+
+        total = preco1 * qte1 + preco2 * qte2;
+
+        System.out.printf("VALOR A PAGAR: R$ %.2f%n", total);
+        //
         double b, B, h, area;
 
         b = 6.0;
@@ -25,8 +86,6 @@ public class Main {
         double resultado;
         resultado = (double) a / A;
         System.out.println(resultado);
-
-        Scanner sc = new Scanner(System.in);
 
         int x;
         String s1, s2, s3;
