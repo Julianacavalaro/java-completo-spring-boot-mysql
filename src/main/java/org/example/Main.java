@@ -32,6 +32,7 @@ public class Main {
                 break;
         }
         System.out.println("Dia da semana "+ dia);
+        System.out.println(xx);
 
         int numA, numB;
         numA = sc.nextInt();
