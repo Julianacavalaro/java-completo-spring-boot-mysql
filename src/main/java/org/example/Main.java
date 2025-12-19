@@ -1,5 +1,6 @@
 package org.example;
 
+import javax.xml.transform.stream.StreamSource;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -15,6 +16,22 @@ public class Main {
         //mensagem explicativa, conforme exemplos.
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
+
+        int xx = sc.nextInt();
+        String dia = "dia inicial";
+
+        switch (xx){
+            case 1:
+                dia = "domingo";
+                break;
+            case 2:
+                dia = "segunda";
+                break;
+            case 3:
+                dia = "terça";
+                break;
+        }
+        System.out.println("Dia da semana "+ dia);
 
         int numA, numB;
         numA = sc.nextInt();
